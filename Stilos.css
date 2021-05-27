@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height:230px;
+    background: rgb(90, 255, 175);
+}
+header h1{
+    font-family:lucida console;
+    font-size: 100px;
+    position: relative;
+    font-weight: bold;
+    margin: 100px 30px;
+}
+.Perfil img{
+    width: 250px;
+    height: 300px;
+    margin: 30px 40px 30px;
+    border-radius: 10px;
+}
+.Perfil p {
+    font-size: 35px;
+    width: 65%;
+    float: right;
+    margin:100px 50px 100px;
+}
+.Experiencia h1{
+    margin-top: 40px;
+    font-size: 35px;
+    text-align: center;
+}
+.Experiencia li{
+    margin-left: 60px;
+    padding-top: 80px;
+    font-size: 20px;
+    list-style-type: star;
+}
+.Experiencia p {
+    margin: -50px 50px;
+    font-size: 27px;
+    width: 45%;
+    float: right;
+}
+.Experiencia u {
+     padding-left: 10px;
+}
+.Habilidad li{
+    font-size: 21px;
+    display: inline-block;
+}
+.Li{
+    text-align: center;
+}
+footer{
+    background: rgb(157,143,36);
+    width:99.6%;
+    height: 80px;
+    margin: 3px 3px 3px;
+    color: #fff;
+    font-size: 20px;
+}
+footer p{
+    position: absolute;
+}
+footer img{
+    position:absolute;
+    width: 50px;
+    height: 40px;
+}
+.Contacto{
+   
+    margin: 24px 70px;
+    font-size: 31px;
+}
+.Icon_Gmail{
+  margin: 14px 300px;  
+}
+.Gmail{
+    font-size: 24px;
+   
+    margin: 24px 400px;
+}
+.Icon_Telefono{
+    margin: 14px 800px;
+}
+.Telefono{
+    margin: 24px 870px;
+    font-size: 24px;
+}
