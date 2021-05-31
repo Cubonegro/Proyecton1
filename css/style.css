@@ -30,6 +30,17 @@ body {
     bottom: 0.4rem;
     left: 2rem;
 }
+.button_blog{
+    text-decoration: none;
+    border: solid 1px;
+    color: black;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #5AFFB0;
+    position: absolute;
+    margin: 20px 50px 0 600px;
+    padding: 5px 15px 5px 15px;
+}
 
 /* Sections */
 .section {
