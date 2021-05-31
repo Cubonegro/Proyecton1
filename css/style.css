@@ -1,0 +1,126 @@
+/* Reset styles */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+.container {
+    max-width: 100%;
+    padding: 50px;
+}
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/* Header */
+.header{
+    height:230px;
+    background: #5AFFB0;
+    position: relative;
+}
+.header__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 5rem;
+    position: absolute;
+    bottom: 0.4rem;
+    left: 2rem;
+}
+.button_blog{
+    text-decoration: none;
+    border: solid 1px;
+    color: black;
+    font-size: 18px;
+    border-radius: 15px;
+    background: #5AFFB0;
+    position: absolute;
+    margin: 20px 50px 0 600px;
+    padding: 5px 15px 5px 15px;
+}
+
+/* Sections */
+.section {
+    width: 100%;
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section--between {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section__img{
+    width: 250px;
+    height: 270px;
+    margin: 30px 40px 40px ;
+    border-radius: 10px;
+}
+.section__title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 0 18px;
+    margin: 0 0 25px 0;
+    border-bottom: solid 4px #000000;
+}
+.section__text-container {
+    width: 80%;
+    margin: 14px 0;
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.section__text {
+    font-size: 1.2rem;
+    padding: 0 10px;
+
+}
+.section__text--lg {
+    font-size: 1.5rem;
+}
+.section__text--bold {
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    background: #9D9125;
+    width:99.6%;
+    height: 80px;
+    margin: 3px 3px 3px;
+    color: #fff;
+    font-size: 20px;
+}
+footer p{
+    position: absolute;
+}
+footer img{
+    position:absolute;
+    width: 50px;
+    height: 45px;
+}
+.Contacto{
+   font-family: 'Nanum Gothic Coding', sans-serif;;
+    margin: 14px 70px;
+    font-size: 40px;
+}
+.Icon_Gmail{
+  margin: 17px 320px;  
+}
+.Gmail{
+    font-size: 24px;
+   
+    margin: 24px 400px;
+}
+.Icon_Telefono{
+    margin: 14px 800px;
+}
+.Telefono{
+    margin: 24px 870px;
+    font-size: 24px;
+}
