@@ -11,11 +11,11 @@ header{
     background: #5AFFB0;
 }
 header h1{
-    font-family:Consolas;
+    font-family:Arial Black;
     font-size: 100px;
     position: relative;
     font-weight: bold;
-    margin: 90px 30px;
+    margin: 70px 30px;
 }
 .Perfil img{
     width: 250px;
