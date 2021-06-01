@@ -7,15 +7,14 @@
     <title>Landing page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600;1,700;1,800&family=Nanum+Gothic&family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='./css/style.css'>
 </head>
 <body>
     <header class="header">
-        <img src="imagenes/Group 14.svg">
+        <img src="imagenes/flat.svg">
         <h1 class="header__title">Jorge Obando</h1>
-        <a href="#" class="button_blog">BLOG</a>
+        <a href="#" class="header__link">BLOG</a>
     </header>
     <article class="container">
         <section class="section section--between">
@@ -50,12 +49,16 @@
            </div>
         </section>
     </article>
-    <footer>
-        <p class="Contacto">contacto:</p>
-        <img src="./imagenes/332-3328930_icono-de-correo-blanco-png-email-icon-light.png" class="Icon_Gmail">
-        <p class="Gmail">MiEjemplo@gmial.com</p>
-        <img src="./imagenes/Telefono.png" class="Icon_Telefono">
-        <p class="Telefono">300_000_000</p>
+    <footer class="footer">
+        <p class="footer__title">contacto:</p>
+        <div class="footer__group">
+            <img src="./imagenes/email.png" class="footer__icon">
+            <p class="section__text">MiEjemplo@gmial.com</p>
+        </div>
+        <div class="footer__group">
+            <img src="./imagenes/Telefono.png" class="footer__icon">
+            <p class="section__text">300_000_000</p>
+        </div>
     </footer>
 </body>
 </html>

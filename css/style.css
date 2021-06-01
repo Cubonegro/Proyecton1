@@ -30,16 +30,17 @@ body {
     bottom: 0.4rem;
     left: 2rem;
 }
-.button_blog{
+.header__link{
     text-decoration: none;
-    border: solid 1px;
+    border: solid 2px;
     color: black;
-    font-size: 18px;
-    border-radius: 15px;
-    background: #5AFFB0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px;
     position: absolute;
-    margin: 20px 50px 0 600px;
-    padding: 5px 15px 5px 15px;
+    right: 20px;
+    top: 20px;
+    padding: 5px 15px;
 }
 
 /* Sections */
@@ -88,39 +89,25 @@ body {
 }
 
 /* Footer */
-footer{
+.footer{
     background: #9D9125;
-    width:99.6%;
+    max-width: 100%;
     height: 80px;
-    margin: 3px 3px 3px;
     color: #fff;
-    font-size: 20px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-footer p{
-    position: absolute;
+.footer__title{
+   font-family: 'Nanum Gothic Coding', sans-serif;
+   font-size: 2rem;
+} 
+.footer__group {
+    display: flex;
+    align-items: center;
 }
-footer img{
-    position:absolute;
-    width: 50px;
-    height: 45px;
-}
-.Contacto{
-   font-family: 'Nanum Gothic Coding', sans-serif;;
-    margin: 14px 70px;
-    font-size: 40px;
-}
-.Icon_Gmail{
-  margin: 17px 320px;  
-}
-.Gmail{
-    font-size: 24px;
-   
-    margin: 24px 400px;
-}
-.Icon_Telefono{
-    margin: 14px 800px;
-}
-.Telefono{
-    margin: 24px 870px;
-    font-size: 24px;
+.footer__icon {
+    height: 2.5rem;
+    width: 3rem;
 }
